@@ -5,11 +5,11 @@ import Image from "next/image";
 
 export default function Works() {
   return (
-    <section className="my-32 p-5 md:p-10 space-y-5" id="works">
+    <section className="my-32 md:my-64 p-5 md:p-10 space-y-5" id="works">
       <h1 className="font-semibold text-xl md:text-2xl whitespace-nowrap pt-2">Works</h1>
 
       <div className="grid grid-cols-1 gap-5 pt-2">
-        <div className="bg-white shadow-md rounded px-5 py-4">
+        <div className="bg-orange-100 shadow-md rounded px-5 py-4">
           <div className="flex flex-col-reverse sm:flex-row">
             <div className="flex-1 space-y-2 md:space-y-4">
               <span className="bg-gray-200 text-gray-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">lib1</span>

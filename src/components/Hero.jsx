@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div id="home" className=" my-0 md:my-5 text-background  "></div>
+      <div id="home" className=" my-0 md:my-16 text-background  "></div>
       <section className="flex flex-col md:flex-row items-center gap-5 md:gap-10 p-5 md:p-10">
         <div className="sm:w-3/4 md:w-2/3 text-center md:text-left flex flex-col gap-2 md:gap-5">
           <h1 className="font-bold text-3xl md:text-5xl whitespace-nowrap text-orange-950 border-l-4 border-orange-700 px-2">

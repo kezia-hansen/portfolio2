@@ -11,3 +11,64 @@
     text-wrap: balance;
   }
 }
+
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.skills-grid {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-items: center;
+}
+
+.skills-item {
+  position: relative;
+  background: white;
+  box-shadow: 0 0 10px 2px #dedede;
+  padding-bottom: 1.5rem;
+  width: 280px;
+  margin: 1.5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 1rem 0;
+  font-size: 1.3rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0;
+  padding-left: 2.5rem;
+}
+
+.item-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 1rem;
+}
+
+.icon {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 3px #eee;
+}
