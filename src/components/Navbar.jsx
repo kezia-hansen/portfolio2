@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <nav className="bg-orange-950 border-orange-950 sticky top-0 z-20">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse md:hover:scale-110">
+        <Link href="#home" className="flex items-center space-x-3 rtl:space-x-reverse md:hover:scale-110" onClick={() => setActiveTab("home")}>
           <Image src="../logo.svg" width={100} height={100} className="h-16" alt="Logo" />
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
