@@ -22,9 +22,11 @@ export default function Navbar() {
           <Image src="../logo.svg" width={100} height={100} className="h-16" alt="Logo" />
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button type="button" className="text-orange-100 bg-orange-500  focus:ring-4 focus:outline-none focus:ring-orange-500  rounded-lg text-sm px-4 py-2 text-center  md:hover:bg-orange-700 md:hover:scale-110">
-            Contact me
-          </button>
+          <Link href="mailto: kezia.hansen02@gmail.com">
+            <button type="button" className="text-orange-100 bg-orange-500  focus:ring-4 focus:outline-none focus:ring-orange-500  rounded-lg text-sm px-4 py-2 text-center  md:hover:bg-orange-700 md:hover:scale-110">
+              Contact me
+            </button>
+          </Link>
           <button data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-orange-100 rounded-lg md:hidden md:hover:bg-orange-700 focus:outline-none " aria-controls="navbar-cta" aria-expanded={isOpen} onClick={() => setIsOpen(!isOpen)}>
             <span className="sr-only">Open main menu</span>
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
