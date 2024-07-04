@@ -16,9 +16,9 @@ export default function RootLayout({ children }) {
       <head>{/* FAVICON MANGLER */}</head>
 
       <body className="bg-orange-50 ">
-        <Navbar></Navbar>
+        <Navbar />
         {children}
-        <Footer></Footer>
+        <Footer />
       </body>
     </html>
   );
