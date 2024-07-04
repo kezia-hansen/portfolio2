@@ -94,7 +94,7 @@ const About = () => {
         <div className="flex flex-col xl:flex-row">
           {/* image */}
           <div className="hidden xl:flex flex-1 relative">
-            <Image alt="image of me" src={"/me.jpg"} height={300} width={300} className="h-auto max-w-full rounded-full" />
+            <Image alt="image of me" src={"/me.png"} height={500} width={500} className=" object-cover w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80" />{" "}
           </div>
           {/* tabs */}
           <div className="flex-1">
