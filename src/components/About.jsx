@@ -1,4 +1,3 @@
-import DevImg from "./DevImg";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { IconUser, IconMail, IconSchool, IconBriefcase } from "@tabler/icons-react";
@@ -81,23 +80,6 @@ const skillData = [
       },
     ],
   },
-  {
-    title: "tools",
-    data: [
-      {
-        imgPath: "/about/vscode.svg",
-      },
-      {
-        imgPath: "/about/figma.svg",
-      },
-      {
-        imgPath: "/about/notion.svg",
-      },
-      {
-        imgPath: "/about/wordpress.svg",
-      },
-    ],
-  },
 ];
 
 const About = () => {
@@ -112,7 +94,7 @@ const About = () => {
         <div className="flex flex-col xl:flex-row">
           {/* image */}
           <div className="hidden xl:flex flex-1 relative">
-            <DevImg containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative" imgSrc="/pf.png" />
+            <Image alt="image of me" src={"/me.jpg"} height={300} width={300} className="h-auto max-w-full rounded-full" />
           </div>
           {/* tabs */}
           <div className="flex-1">
@@ -228,22 +210,6 @@ const About = () => {
                           return (
                             <div className="w-2/4 text-center xl:text-left mx-auto xl:mx-0" key={index}>
                               <div className="font-medium">{name}</div>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                    {/* tools */}
-                    <div>
-                      <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
-                      <div className="border-b border-border mb-4"></div>
-                      {/* tool list */}
-                      <div className="flex gap-x-8 justify-center xl:justify-start">
-                        {getData(skillData, "tools").data.map((item, index) => {
-                          const { imgPath } = item;
-                          return (
-                            <div key={index}>
-                              <Image src={imgPath} width={48} height={48} alt="" priority />
                             </div>
                           );
                         })}
