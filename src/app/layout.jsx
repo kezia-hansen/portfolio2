@@ -13,7 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>{/* FAVICON MANGLER */}</head>
+      <head>
+        {/* FAVICON MANGLER */}
+        <meta charset="UTF-8"></meta>
+      </head>
 
       <body className="bg-orange-50 ">
         <Navbar />
