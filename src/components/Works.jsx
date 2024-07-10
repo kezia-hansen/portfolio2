@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Works() {
   return (
-    <section className="my-10  p-5 md:p-10 space-y-5" id="works">
+    <section className="my-32  p-5 md:p-10 space-y-5 flex justify-center gap-5 height-80 h-5/6  box-content" id="works">
       <h1 className="font-semibold text-xl md:text-2xl whitespace-nowrap pt-2 text-orange-950 ">Works</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-2">

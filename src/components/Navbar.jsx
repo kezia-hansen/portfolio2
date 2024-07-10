@@ -23,7 +23,7 @@ export default function Navbar() {
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link href="mailto: kezia.hansen02@gmail.com">
-            <button type="button" className="text-orange-100 bg-orange-500  focus:ring-4 focus:outline-none focus:ring-orange-500  rounded-lg text-sm px-4 py-2 text-center  md:hover:bg-orange-700 md:hover:scale-110">
+            <button type="button" className="text-orange-100 bg-orange-500   focus:ring-4 focus:outline-none focus:ring-orange-500  rounded-lg text-sm md:text-xl px-4 py-2 text-center  md:hover:bg-orange-700 md:hover:scale-110">
               Contact me
             </button>
           </Link>
@@ -39,7 +39,7 @@ export default function Navbar() {
             {tabs.map((tab) => (
               <li key={tab.id} className="md:hover:scale-110">
                 <Link href={`#${tab.id}`} onClick={() => setActiveTab(tab.id)}>
-                  <span className={`relative rounded-md px-3 py-1.5 text-sm font-medium text-orange-100  md:hover:bg-orange-700  ${activeTab === tab.id ? "bg-orange-700 text-orange-100" : "text-orange-100"} outline-orange-400 transition focus-visible:outline-2`}>
+                  <span className={`relative rounded-md px-3 py-1.5 text-xl font-medium text-orange-100  md:hover:bg-orange-700  ${activeTab === tab.id ? "bg-orange-700 text-orange-100" : "text-orange-100"} outline-orange-400 transition focus-visible:outline-2`}>
                     {tab.label}
                     {activeTab === tab.id && <motion.span layoutId="bubble" className="absolute inset-0 z-5 bg-orange-700 mix-blend-screen rounded-md" transition={{ type: "spring", bounce: 0.2, duration: 0.6 }} />}
                   </span>
