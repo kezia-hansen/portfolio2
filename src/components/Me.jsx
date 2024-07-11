@@ -1,29 +1,33 @@
 "use client";
+import { SocialIcon } from "react-social-icons";
+import { IconExternalLink } from "@tabler/icons-react";
 import Image from "next/image";
-import TabSection from "@/components/TabSection";
+import TabSection from "./TabSection";
 
-export default function AboutMe() {
+export default function Works() {
   return (
-    <>
-      <div id="aboutme" className="flex justify-center gap-5 height-80 h-5/6 my-10 box-content">
-        <div className="flex flex-col items-center">
-          <p className="text-orange-900 text-3xl ">Meet the</p>
-          <h1 className="font-semibold text-xl md:text-6xl whitespace-nowrap pt-2 pb-4 text-orange-950 ">person behind</h1>
-
-          <section className="flex flex-col md:flex-row items-start justify-center gap-5 md:gap-10 p-5 md:p-10">
-            <div className="sm:w-3/4 md:w-2/3 text-center md:text-left flex flex-col gap-2 md:gap-5">
-              <TabSection />
-            </div>
-            <div className="w-full md:w-1/3 flex justify-center">
-              <div className="relative">
-                <a href="https://www.linkedin.com/in/keziahansen/" className="block w-72 h-72">
-                  <Image alt="image of me" src={"/me.png"} layout="fill" objectFit="cover" className="rounded-full transition duration-300 ease-in-out transform md:hover:scale-105" />
-                </a>
+    <section className="my-10 md:my-32  p-5 md:p-10 space-y-5 flex justify-center gap-5 height-80 h-5/6  box-content" id="works">
+      <div className="flex flex-col items-center">
+        <p className="text-orange-900 text-3xl ">Meet the</p>
+        <h1 className="font-semibold text-xl md:text-6xl whitespace-nowrap pt-2 pb-4 text-orange-950 ">person</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-2">
+          <div className="bg-white shadow-md rounded px-5 py-4">
+            <div className="flex flex-col-reverse sm:flex-row">
+              <div className="flex-1 space-y-2 md:space-y-4">
+                <TabSection />
               </div>
             </div>
-          </section>
+          </div>
+
+          <div className="  px-5 py-4">
+            <div className="flex flex-col-reverse sm:flex-row">
+              <div className="flex-1 flex items-center justify-center">
+                <Image src="/me.png" alt="" height={300} width={300} className=" sm:block  object-contain " />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

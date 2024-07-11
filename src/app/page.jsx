@@ -1,3 +1,5 @@
+"use client";
+import React from "react";
 import Hero from "@/components/Hero";
 import Works from "@/components/Works";
 import Me from "@/components/Me";
