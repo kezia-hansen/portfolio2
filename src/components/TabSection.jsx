@@ -24,7 +24,7 @@ const infoData = [
 ];
 
 const qualificationData = {
-  icon: "/radarchart.svg",
+  icon: "/radarchart.png",
 };
 
 const skillData = [
@@ -123,8 +123,8 @@ export default function TabSec() {
 
   const renderQualificationsContent = () => (
     <div className="text-center xl:text-left">
-      {/*       <h3 className="opacity-0">My Awesome Journey</h3>
-      <p className="opacity-0 subtitle max-w-xl mx-auto xl:mx-0">I specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences.</p> */}
+      <h3 className="opacity-0">My Awesome Journey</h3>
+      <p className="opacity-0 subtitle max-w-xl mx-auto xl:mx-0">I specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences.</p>
       <div className="flex justify-center  mb-8">
         <Image alt="radar skill chart" src={qualificationData.icon} height={200} width={200} className="w-3/4 h-auto" />
       </div>
@@ -136,7 +136,7 @@ export default function TabSec() {
       <h3 className="h3 mb-4">Unmatched Service Quality for Over 10 Years</h3>
       <p className="subtitle max-w-xl mx-auto xl:mx-0">I specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences.</p>
       <div className="grid xl:grid-cols-2 gap-4 mb-12">
-        {infoData.map((item, index) => (
+        {skillData.map((item, index) => (
           <div className="flex items-center gap-x-4 mx-auto xl:mx-0" key={index}>
             <div className="text-primary">{item.icon}</div>
             <div>{item.text}</div>
@@ -148,22 +148,22 @@ export default function TabSec() {
 
   return (
     <section>
-      <div className="border-l-4 border-orange-700 mb-2">
-        <ul className="flex -mb-px text-sm font-medium text-center text-orange-950" ref={tabsElement} id="tabs-example" role="tablist">
+      <div className="ml-0 ">
+        <ul className="flex -mb-px text-sm font-medium text-center text-orange-950 " ref={tabsElement} id="tabs-example" role="tablist">
           <li className="me-2" role="presentation">
-            <button className={`inline-block rounded-t-lg border-b-2 ${activeTab === "personal-info" ? "text-orange-100 bg-orange-500 " : "border-orange-700"} p-4 md:hover:bg-orange-700 hover:text-orange-100`} id="personal-info-tab" type="button" role="tab" aria-controls="personal-info-content" aria-selected={activeTab === "personal-info"}>
+            <button className={`inline-block rounded-t-lg  ${activeTab === "personal-info" ? "text-orange-100 bg-orange-500 " : "border-orange-700"} p-4 md:hover:bg-orange-700 hover:text-orange-100`} id="personal-info-tab" type="button" role="tab" aria-controls="personal-info-content" aria-selected={activeTab === "personal-info"}>
               <IconUser className="inline-block mr-2" size={20} />
               Personal Info
             </button>
           </li>
           <li className="me-2" role="presentation">
-            <button className={`inline-block rounded-t-lg border-b-2 ${activeTab === "competences" ? "text-orange-100 bg-orange-500 " : "border-orange-700"} p-4 md:hover:bg-orange-700 hover:text-orange-100`} id="competences-tab" type="button" role="tab" aria-controls="competences-content" aria-selected={activeTab === "competences"}>
+            <button className={`inline-block rounded-t-lg  ${activeTab === "competences" ? "text-orange-100 bg-orange-500 " : "border-orange-700"} p-4 md:hover:bg-orange-700 hover:text-orange-100`} id="competences-tab" type="button" role="tab" aria-controls="competences-content" aria-selected={activeTab === "competences"}>
               <IconBriefcase className="inline-block mr-2" size={20} />
               Competences
             </button>
           </li>
           <li role="presentation">
-            <button className={`inline-block rounded-t-lg border-b-2 ${activeTab === "skills" ? "text-orange-100 bg-orange-500 " : "border-orange-700"} p-4 md:hover:bg-orange-700 hover:text-orange-100`} id="skills-tab" type="button" role="tab" aria-controls="skills-content" aria-selected={activeTab === "skills"}>
+            <button className={`inline-block rounded-t-lg  ${activeTab === "skills" ? "text-orange-100 bg-orange-500 " : "border-orange-700"} p-4 md:hover:bg-orange-700 hover:text-orange-100`} id="skills-tab" type="button" role="tab" aria-controls="skills-content" aria-selected={activeTab === "skills"}>
               <IconSchool className="inline-block mr-2" size={20} />
               Skills
             </button>
@@ -171,13 +171,13 @@ export default function TabSec() {
         </ul>
       </div>
       <div id="tabContentExample">
-        <div className={`rounded-lg border-4 border-orange-700 p-4 ${activeTab === "personal-info" ? "" : "hidden"}`} id="personal-info-content" role="tabpanel" aria-labelledby="personal-info-tab">
+        <div className={`rounded-r-lg   bg-orange-500 p-4 ${activeTab === "personal-info" ? "" : "hidden"}`} id="personal-info-content" role="tabpanel" aria-labelledby="personal-info-tab">
           {renderPersonalInfoContent()}
         </div>
-        <div className={`rounded-lg border-4 border-orange-700 p-4 ${activeTab === "competences" ? "" : "hidden"}`} id="competences-content" role="tabpanel" aria-labelledby="competences-tab">
+        <div className={`rounded-lg   bg-orange-500 p-4 ${activeTab === "competences" ? "" : "hidden"}`} id="competences-content" role="tabpanel" aria-labelledby="competences-tab">
           {renderQualificationsContent()}
         </div>
-        <div className={`rounded-lg border-4 border-orange-700 p-4 ${activeTab === "skills" ? "" : "hidden"}`} id="skills-content" role="tabpanel" aria-labelledby="skills-tab">
+        <div className={`rounded-l-lg   bg-orange-500 p-4 ${activeTab === "skills" ? "" : "hidden"}`} id="skills-content" role="tabpanel" aria-labelledby="skills-tab">
           {renderSkillsContent()}
         </div>
       </div>

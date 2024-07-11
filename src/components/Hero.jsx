@@ -16,7 +16,7 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className="sm:w-3/4 md:w-2/3 text-center md:text-left flex flex-col gap-2 md:gap-5 self-start  md:mt-40">
+          <div className=" md:w-2/3 text-center md:text-left flex flex-col gap-2 md:gap-5 self-start  md:mt-40">
             <div className="border-l-4 border-orange-950 px-2">
               <p className="text-orange-900 text-3xl ">Hello, i am</p>
               <h1 className="font-bold text-3xl md:text-8xl whitespace-nowrap text-orange-700">Kezia Hansen</h1>
