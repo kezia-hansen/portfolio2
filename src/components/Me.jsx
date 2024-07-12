@@ -22,7 +22,7 @@ export default function Works() {
           <div className="  px-5 mt-4 md:mt-10 md:ml-20">
             <div className="flex flex-col-reverse sm:flex-row">
               <div className="flex-1 flex items-center justify-center">
-                <Image src="/me.png" alt="" height={300} width={300} className=" sm:block  object-contain " />
+                <Image src="/me.png" alt="" height={300} width={300} className=" sm:block  object-contain transition duration-300 ease-in-out transform md:hover:scale-105 " />
               </div>
             </div>
           </div>
