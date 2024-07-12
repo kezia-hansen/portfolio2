@@ -2,7 +2,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function ContactMe() {
   return (
-    <section id="contact" class="h-screen flex justify-center flex-col pt-32">
+    <section id="contact" className=" flex justify-center gap-5 height-80 h-5/6 my-10 box-content">
       <p class="text-3xl text-center text-orange-600">Thanks for visiting my page!</p>
       <h1 class="text-5xl text-center text-red-600">Find me here</h1>
       <div class="flex justify-center mb-4">

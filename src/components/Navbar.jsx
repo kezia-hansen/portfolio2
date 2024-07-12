@@ -6,9 +6,9 @@ import Link from "next/link";
 
 let tabs = [
   { id: "home", label: "Home" },
+  { id: "works", label: "Projects" },
   { id: "aboutme", label: "About Me" },
   { id: "skills", label: "Skills" },
-  { id: "works", label: "Projects" },
 ];
 
 export default function Navbar() {
