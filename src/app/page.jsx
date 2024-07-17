@@ -1,19 +1,13 @@
 "use client";
 import React from "react";
-import Hero from "@/components/Hero";
-import Works from "@/components/Works";
-import Me from "@/components/Me";
-import Feature from "@/components/Feature";
-import ContactMe from "@/components/ContactSection";
+
+import CTABtn from "@/components/CTABtn";
+import TestComponent from "@/components/TestComponent";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between ">
-      <Hero />
-      <Works />
-      <Me />
-      <Feature />
-      <ContactMe />
+    <main className="relative flex flex-col items-center justify-between min-h-screen">
+      <CTABtn />
     </main>
   );
 }

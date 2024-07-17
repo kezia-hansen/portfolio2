@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import Sidebar from "@/components/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,16 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* FAVICON MANGLER */}
-
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-        <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"></link>
-      </head>
+      <head>{/* FAVICON MANGLER */}</head>
 
       <body className="bg-yellow-50 font-chewy">
-        <Navbar></Navbar>
+        <Sidebar></Sidebar>
         {children}
         <Footer></Footer>
       </body>
