@@ -2,7 +2,6 @@
 import React from "react";
 
 import CTABtn from "@/components/CTABtn";
-import TestComponent from "@/components/TestComponent";
 
 export default function Home() {
   return (
