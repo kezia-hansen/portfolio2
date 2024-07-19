@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest"></link>
       </head>
 
-      <body className="bg-yellow-50 font-chewy">
+      <body className="bg-yellow-50 font-rocaone">
         <Sidebar />
         {children}
         <Footer />
