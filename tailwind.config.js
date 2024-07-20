@@ -24,6 +24,7 @@ module.exports = {
           800: "#12124d",
           900: "#0b0b26",
         },
+        tangerine: "#FF5722",
       },
     },
   },

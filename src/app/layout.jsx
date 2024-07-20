@@ -12,10 +12,13 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest"></link>
       </head>
 
-      <body className="bg-yellow-50 font-rocaone">
+      <body className="bg-yellow-50 font-rocaone flex">
         <Sidebar />
-        {children}
-        <Footer />
+        <div className="flex flex-col w-full ml-16 md:ml-32">
+
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
