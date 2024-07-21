@@ -1,6 +1,4 @@
 import { SocialIcon } from "react-social-icons";
-import Image from "next/image";
-import Terminal from "./Terminal";
 
 export default function Contact() {
   return (

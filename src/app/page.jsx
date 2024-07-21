@@ -6,7 +6,8 @@ import Hero from "@/components/Hero";
 import Title from "@/components/Title";
 import Feature from "@/components/Feature";
 import ContactSec from "@/components/ContactSec";
-
+import Projects from "@/components/Projects";
+import AboutMe from "@/components/AboutMe";
 export default function Home() {
   return (
     <main className="relative flex flex-col items-center justify-start min-h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth">
@@ -16,9 +17,11 @@ export default function Home() {
       </section>
       <section id="projects" className="flex-shrink-0 snap-start w-full py-10 pl-4 md:pl-32">
         <Title smallt="Browse my" bigt="Projects" Icon={IconBriefcase} />
+        <Projects />
       </section>
       <section id="about-me" className="flex-shrink-0 snap-start w-full py-10 pl-4 md:pl-32">
         <Title smallt="A Glimpse Into my" bigt="Resources" Icon={IconUser} />
+        <AboutMe />
       </section>
       <section id="competences" className="flex-shrink-0 snap-start w-full py-10 pl-4 md:pl-32">
         <Title smallt="Check my" bigt="Competences" Icon={IconCircleCheck} />
