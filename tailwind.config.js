@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         rocaone: ["Rocaone", "sans-serif"],
         lato: ["Lato", "sans-serif"],
+        moontime: ["Moontime", "sans-serif"],
       },
       colors: {
         royalBlue: {
