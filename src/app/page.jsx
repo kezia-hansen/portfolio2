@@ -28,7 +28,7 @@ export default function Home() {
         <Title smallt="Check my" bigt="Competences" Icon={IconCircleCheck} />
         <Feature />
       </section>
-      <section id="contact" className="flex-shrink-0 snap-start w-full py-10 pl-4 md:pl-20 ">
+      <section id="contact" className="flex-shrink-0 snap-start w-full  pl-4 md:pl-20 ">
         <ContactSec />
       </section>
     </main>
