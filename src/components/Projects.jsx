@@ -73,47 +73,47 @@ export default function Works() {
   };
 
   return (
-    <section className="my-10 md:my-32 p-5 md:p-10 space-y-5 flex justify-center gap-5 height-80 h-5/6 box-content" id="works">
-      <div className="flex flex-col items-center border-4 border-royalBlue-600 p-5">
-        <div className="mx-auto max-w-lg divide-y-4 divide-royalBlue-600">
+    <section className="my-10  p-5 md:p-10 space-y-5" id="works">
+      <div className="flex flex-col items-center border-4 border-royalBlue-600 p-5 w-full">
+        <div className=" divide-y-4 divide-royalBlue-600 w-full">
           {projects.map((project, index) => (
-            <details key={index} className="group">
-              <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-tangerine   pl-2">
+            <details key={index} className="group mb-5">
+              <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg sm:text-2xl md:text-4xl  font-medium text-tangerine pl-2">
                 {project.title}
                 <div>
                   <IconCirclePlus className="block h-6 w-6 group-open:hidden md:hover:scale-110" />
                   <IconCircleMinus className="hidden h-6 w-6 group-open:block md:hover:scale-110" />
                 </div>
               </summary>
-              <div className="pb-4 text-secondary-500">
-                <div className="flex flex-wrap gap-2 mb-4 items-center justify-center">
-                  {project.tags.map((tag, tagIndex) => (
-                    <span key={tagIndex} className="text-royalBlue-800 text-xs font-semibold px-2.5 py-0.5 rounded" style={{ backgroundColor: tagColors[tag] }}>
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                  <Image src={project.imageSrc} alt={project.title} height={300} width={300} className="w-full h-[200px] object-cover sm:object-contain rounded mb-4" />
-                </a>
-                <p className="text-xs sm:text-sm text-royalBlue-800 mb-4">{project.description}</p>
-                <div className="flex flex-row gap-5 mb-4">
+              <div className="pb-4 text-secondary-500 md:flex md:flex-row-reverse md:gap-5">
+                <div className="md:w-1/2 md:flex md:justify-center">
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                    <button className="bg-tangerine md:hover:bg-orange-700 md:hover:scale-110 text-yellow-50 font-bold py-2 px-4 rounded-lg whitespace-nowrap flex w-32 h-12 items-center">
-                      <div className="w-6 h-6 flex justify-center items-center mr-2">
-                        <IconExternalLink stroke={2} />
-                      </div>
-                      Demo
-                    </button>
+                    <Image src={project.imageSrc} alt={project.title} height={300} width={300} className="w-full h-[200px] md:h-auto object-contain rounded mb-4" />
                   </a>
-                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                    <button className="bg-transparent md:hover:scale-110 text-tangerine border-4 border-tangerine font-bold py-2 px-4 rounded-lg whitespace-nowrap flex w-32 h-12 items-center justify-center">
-                      <div className="w-12 h-12 flex justify-center items-center">
+                </div>
+                <div className="md:w-1/2">
+                  <div className="flex flex-wrap gap-2 mb-4 items-center">
+                    {project.tags.map((tag, tagIndex) => (
+                      <span key={tagIndex} className="text-royalBlue-800 text-xs font-semibold px-2.5 py-0.5 rounded" style={{ backgroundColor: tagColors[tag] }}>
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <p className="text-xs sm:text-sm text-royalBlue-800 mb-4">{project.description}</p>
+                  <div className="flex flex-row gap-5 items-center">
+                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                      <button className="bg-tangerine md:hover:scale-110 text-yellow-50 font-bold py-2 px-4 rounded-lg whitespace-nowrap flex w-32 h-12 items-center justify-center">
+                        <IconExternalLink className="mr-2" stroke={2} />
+                        Demo
+                      </button>
+                    </a>
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                      <button className="bg-transparent md:hover:scale-110 text-tangerine border-4 border-tangerine font-bold py-2 px-4 rounded-lg whitespace-nowrap flex w-32 h-12 items-center justify-center">
                         <SocialIcon aria-hidden="true" alt="github logo" network="github" bgColor="transparent" fgColor="#FF5722" style={{ height: 45, width: 45 }} />
-                      </div>
-                      Github
-                    </button>
-                  </a>
+                        Github
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </details>
