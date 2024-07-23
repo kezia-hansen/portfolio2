@@ -94,7 +94,7 @@ export default function Works() {
                   ))}
                 </div>
                 <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                  <Image src={project.imageSrc} alt={project.title} height={300} width={300} className="w-full h-[200px] object-cover rounded mb-4" />
+                  <Image src={project.imageSrc} alt={project.title} height={300} width={300} className="w-full h-[200px] object-cover sm:object-contain rounded mb-4" />
                 </a>
                 <p className="text-xs sm:text-sm text-royalBlue-800 mb-4">{project.description}</p>
                 <div className="flex flex-row gap-5 mb-4">
