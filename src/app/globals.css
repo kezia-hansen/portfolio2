@@ -96,21 +96,3 @@ html {
   align-items: center;
   box-shadow: 0 0 10px 3px #eee;
 }
-
-/* ANIMATION */
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-in-up {
-  animation: fadeInUp 1s ease-out;
-}

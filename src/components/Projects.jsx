@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import { IconExternalLink, IconCirclePlus, IconCircleMinus } from "@tabler/icons-react";
 import Image from "next/image";
 
-export default function Works() {
+export default function Projects() {
   // Define projects data
   const projects = [
     {

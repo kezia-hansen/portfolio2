@@ -8,6 +8,8 @@ import Feature from "@/components/Feature";
 import ContactSec from "@/components/ContactSec";
 import Projects from "@/components/Projects";
 import AboutMe from "@/components/AboutMe";
+import Test from "@/components/Test";
+import TestMe from "@/components/TestMe";
 
 export default function Home() {
   return (
@@ -22,7 +24,9 @@ export default function Home() {
       </section>
       <section id="about-me" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
         <Title smallt="A Glimpse Into my" bigt="Resources" Icon={IconUser} />
-        <AboutMe />
+        {/*     <AboutMe /> */}
+        {/*         <Test /> */}
+        <TestMe />
       </section>
       <section id="competences" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
         <Title smallt="Check my" bigt="Competences" Icon={IconCircleCheck} />
