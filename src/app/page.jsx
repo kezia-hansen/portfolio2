@@ -24,9 +24,7 @@ export default function Home() {
       </section>
       <section id="about-me" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
         <Title smallt="A Glimpse Into my" bigt="Resources" Icon={IconUser} />
-        {/*     <AboutMe /> */}
-        {/*         <Test /> */}
-        <TestMe />
+        <Test />
       </section>
       <section id="competences" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
         <Title smallt="Check my" bigt="Competences" Icon={IconCircleCheck} />

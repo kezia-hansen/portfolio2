@@ -78,7 +78,7 @@ export default function Projects() {
         <div className=" divide-y-4 divide-royalBlue-600 w-full">
           {projects.map((project, index) => (
             <details key={index} className="group mb-5">
-              <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg sm:text-2xl md:text-4xl  font-medium text-tangerine pl-2">
+              <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg sm:text-2xl md:text-2xl  font-medium text-tangerine pl-2">
                 {project.title}
                 <div>
                   <IconCirclePlus className="block h-6 w-6 group-open:hidden md:hover:scale-110" />
