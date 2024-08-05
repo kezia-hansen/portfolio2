@@ -16,7 +16,7 @@ export default function Home() {
         <CTABtn />
         <Hero />
       </section>
-      <section id="projects" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
+      <section id="projects" className="flex-shrink-0 snap-start w-full py-24 pl-4 ">
         <Title smallt="Browse my" bigt="Projects" Icon={IconBriefcase} />
         <Projects />
       </section>
