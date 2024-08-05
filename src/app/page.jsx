@@ -14,7 +14,7 @@ import TestMe from "@/components/TestMe";
 export default function Home() {
   return (
     <main className="relative flex flex-col items-center justify-start min-h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth">
-      <section id="home" className="flex-shrink-0 snap-start w-full">
+      <section id="home" className="flex-shrink-0 snap-start w-full py-16 ">
         <CTABtn />
         <Hero />
       </section>

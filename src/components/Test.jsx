@@ -65,7 +65,7 @@ export default function Projects() {
                   <h3 className="text-xl text-royalBlue-600 mb-4">Creative design and coding in harmony</h3>
                   <p className="text-royalBlue-600 mb-4 font-lato">Hej! Jeg er Kezia Hansen, en 22-årig multimediestuderende på KEA, der brænder for både design og kodning. Jeg søger en praktikplads, hvor jeg kan kombinere min tekniske viden og kreative flair.</p>
                   <p className="text-royalBlue-600 mb-4 font-lato">Jeg er organiseret, god til teamwork og har en struktureret tilgang til projekter.</p>
-                  <p className="text-royalBlue-600 bg-purple-50 p-2 rounded-3xl font-lato">Et højdepunkt i min uddannelse var at designe billetter til et succesfuldt projekt. Jeg ser frem til at bringe min passion og mine færdigheder ind i en spændende praktikmulighed.</p>
+                  <p className="text-royalBlue-600 bg-purple-50 p-2 rounded-3xl font-lato">Under min uddannelse arbejdede jeg på et skoleprojekt, hvor jeg designede billetter, som blev anvendt af en virksomhed i et år. Dette illustrerer ikke blot designets kvalitet, men også dets praktiske værdi. Jeg glæder mig til at bringe denne erfaring og min passion til en ny praktikmulighed</p>
                 </div>
               </div>
             </div>
@@ -131,8 +131,8 @@ export default function Projects() {
                 <div className="flex border rounded-lg p-4 bg-royalBlue-50 flex-1 min-w-[150px]">
                   <IconCircleCheckFilled size={24} stroke={2} color="#1f1fb3" />
                   <div className="ml-2 flex-1">
-                    <h4 className="font-semibold text-base text-primary text-royalBlue-800 tracking-normal">Photoshop</h4>
-                    <p className="text-sm font-normal text-gray tracking-normal text-royalBlue-600">Basic</p>
+                    <h4 className="font-semibold text-base text-primary text-royalBlue-800 tracking-normal">Canva</h4>
+                    <p className="text-sm font-normal text-gray tracking-normal text-royalBlue-600">Intermediate</p>
                   </div>
                 </div>
                 <div className="flex border rounded-lg p-4 bg-royalBlue-50 flex-1 min-w-[150px]">
