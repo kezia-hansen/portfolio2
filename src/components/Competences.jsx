@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Feature() {
+export default function Competences() {
   return (
     <>
       <div id="competences"></div>

@@ -4,12 +4,10 @@ import { IconUser, IconBriefcase, IconCircleCheck } from "@tabler/icons-react";
 import CTABtn from "@/components/CTABtn";
 import Hero from "@/components/Hero";
 import Title from "@/components/Title";
-import Feature from "@/components/Feature";
+import Competences from "@/components/Competences";
 import ContactSec from "@/components/ContactSec";
 import Projects from "@/components/Projects";
 import AboutMe from "@/components/AboutMe";
-import Test from "@/components/Test";
-import TestMe from "@/components/TestMe";
 
 export default function Home() {
   return (
@@ -24,11 +22,11 @@ export default function Home() {
       </section>
       <section id="about-me" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
         <Title smallt="A Glimpse Into my" bigt="Resources" Icon={IconUser} />
-        <Test />
+        <AboutMe />
       </section>
       <section id="competences" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
         <Title smallt="Check my" bigt="Competences" Icon={IconCircleCheck} />
-        <Feature />
+        <Competences />
       </section>
       <section id="contact" className="flex-shrink-0 snap-start w-full  pl-4 md:pl-20 ">
         <ContactSec />
