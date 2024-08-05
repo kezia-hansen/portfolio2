@@ -15,7 +15,7 @@ export default function Terminal() {
         <p className="md:mt-2 text-sm md:text-xl xl:text-2xl font-lato text-tangerine whitespace-pre-line pl-2">
           <Typewriter
             options={{
-              strings: ["Welcome to my portfolio!", "Frontend developer", "UI/UX designer", "seeking internship 🌟"],
+              strings: ["Velkommen til min portfolio!", "Frontend developer", "UI/UX designer", "Søger praktik 🌟"],
               autoStart: true,
               loop: true,
             }}

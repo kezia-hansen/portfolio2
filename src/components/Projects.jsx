@@ -9,15 +9,15 @@ export default function Projects() {
     {
       title: "Zodiac Dash",
       description: "Et klik-baseret spil til mobil og desktop, hvor du samler point ved at klikke på gode ting og undgår dårlige, der kan koste liv. Spillet inkluderer også en tidsfaktor, hvor målet er at opnå tilstrækkeligt med point inden tiden løber ud eller risikere at tabe.",
-      tags: ["HTML", "CSS", "Javascript", "Concept"],
+      tags: ["HTML", "CSS", "Javascript", "Koncept"],
       demoLink: "https://zodiac-dash.netlify.app/",
       githubLink: "https://github.com/kezia-hansen/spil_zodiac-dash",
       imageSrc: "/zodiac.png",
     },
     {
-      title: "Redesign of Festival Alive",
+      title: "Redesign af Festival Alive",
       description: "I dette gruppeprojekt har jeg designet billetterne, udviklet konceptet og udført research om festivalen. Vi startede med et tomt Pinterest-board for at finde stilinspiration. Efter at have identificeret 6 nøgleord til vores koncept, tilpassede jeg billetdesignet for at afspejle festivalens visuelle identitet bedre.",
-      tags: ["HTML", "CSS", "Javascript", "Concept", "Research"],
+      tags: ["HTML", "CSS", "Javascript", "Koncept", "Research"],
       demoLink: "https://eclectic-kheer-f1b185.netlify.app/",
       githubLink: "https://github.com/Rasmusminet/02_redesign",
       imageSrc: "/alive.png",
@@ -25,23 +25,23 @@ export default function Projects() {
     {
       title: "Subsite til VildMad",
       description: "I dette projekt udviklede jeg konceptet, udførte research og kodet sæson-siden. Min research fokuserede på børns medieforbrug med særligt fokus på shows som Gumball og børnevenlige hjemmesider. Inspireret af deres farverige og legende design skabte jeg et moodboard til vores side, VildMad. Målet var at skabe en legende, pædagogisk og kreativ oplevelse, der hentede inspiration fra tegnefilm og polaroid-billeder.",
-      tags: ["HTML", "CSS", "Javascript", "Concept", "Research"],
+      tags: ["HTML", "CSS", "Javascript", "Koncept", "Research"],
       demoLink: "https://vildmad5.netlify.app/",
       githubLink: "https://github.com/kezia-hansen/VildMad",
       imageSrc: "/vildmad.png",
     },
     {
-      title: "Redesign of CPH Light Festival",
+      title: "Redesign af CPH Light Festival",
       description: "I dette projekt har jeg sammen med et andet medlem udviklet konceptet, skabt prototyper og style tile. Jeg stod også for kodningen af program-siden og udførte trend research til at støtte vores designvalg, inspireret af CPH Light Festivals motto Our event speaks without words.",
-      tags: ["HTML", "CSS", "Javascript", "Concept", "Research"],
+      tags: ["HTML", "CSS", "Javascript", "Koncept", "Research"],
       demoLink: "https://copenhagenlightfestival-gruppe4.netlify.app/",
       githubLink: "https://github.com/livzino/light_festival_liv",
       imageSrc: "/cphlight.png",
     },
     {
-      title: "Campaign to CA studiepartner og a-kasse",
+      title: "Campaign til CA studiepartner og a-kasse",
       description: "I dette projekt kom jeg op med konceptet til studiekortene, stod for prototyping, research og kodning af footer og cirkler. Vi tilpassede os CAs visuelle identitet ved at undlade en traditionel moodboard og style tile, så vi kunne integrere os sømløst med resten af CAs hjemmeside. Vi ønskede at fremhæve mangfoldigheden blandt studerende ved at vise forskellige ansigter og demonstrere, at CA byder alle typer individer velkommen.",
-      tags: ["HTML", "CSS", "Javascript", "Concept", "Research"],
+      tags: ["HTML", "CSS", "Javascript", "Koncept", "Research"],
       demoLink: "https://ca-karrierekick.netlify.app/",
       githubLink: "https://github.com/misszarakarim/CA",
       imageSrc: "/ca.png",
@@ -49,15 +49,15 @@ export default function Projects() {
     {
       title: "Redesign af The Korner website",
       description: "I dette projekt udviklede jeg konceptet og lavede prototyping sammen med gruppen. Jeg udførte omfattende research gennem surveys, interviews og artikler for at støtte vores designvalg. Vi udforskede pastelfarver, kawaii-æstetik og Y2K-elementer som inspiration til vores design. Vores mål var at tilpasse konceptet til The Korners brandidentitet og butikkens atmosfære, samtidig med at vi skabte en engagerende og brugervenlig hjemmeside.",
-      tags: ["HTML", "CSS", "Javascript", "Concept", "Research"],
+      tags: ["HTML", "CSS", "Javascript", "Koncept", "Research"],
       demoLink: "https://the-korner.netlify.app/",
       githubLink: "https://github.com/misszarakarim/kpop",
       imageSrc: "/korner.png",
     },
     {
-      title: "ToDo list",
+      title: "ToDo liste",
       description: "Denne To-Do List hjemmeside bruger HTML, CSS og JavaScript til at tilføje, markere og slette opgaver. Opgaver gemmes i din browser ved brug af Local Storage, så de forbliver gemt, selv efter genstart. Du kan filtrere opgaver efter afkrydsede, ikke afkrydsede og vise alle opgaver.",
-      tags: ["HTML", "CSS", "Javascript", "Concept", "Research"],
+      tags: ["HTML", "CSS", "Javascript", "Koncept", "Research"],
       demoLink: "https://todobear.netlify.app/",
       githubLink: "https://github.com/kezia-hansen/toDoList",
       imageSrc: "/todo.png",
@@ -68,7 +68,7 @@ export default function Projects() {
     HTML: "#ffe4e6", // Light Red
     CSS: "#e0e0ff", // Light Blue
     Javascript: "#fef9c3", // Light Yellow
-    Concept: "#fed7aa", // Light Green
+    Koncept: "#fed7aa", // Light Green
     Research: "#ecfccb", // Light Purple
   };
 

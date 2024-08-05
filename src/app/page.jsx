@@ -17,15 +17,15 @@ export default function Home() {
         <Hero />
       </section>
       <section id="projects" className="flex-shrink-0 snap-start w-full py-24 pl-4 ">
-        <Title smallt="Browse my" bigt="Projects" Icon={IconBriefcase} />
+        <Title smallt="Udforsk mine" bigt="Projekter" Icon={IconBriefcase} />
         <Projects />
       </section>
       <section id="about-me" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
-        <Title smallt="A Glimpse Into my" bigt="Resources" Icon={IconUser} />
+        <Title smallt="Et kig ind i mine" bigt="Ressourcer" Icon={IconUser} />
         <AboutMe />
       </section>
       <section id="competences" className="flex-shrink-0 snap-start w-full py-10 pl-4 ">
-        <Title smallt="Check my" bigt="Competences" Icon={IconCircleCheck} />
+        <Title smallt="Hvad" bigt="Jeg Kan Tilbyde" Icon={IconCircleCheck} />
         <Competences />
       </section>
       <section id="contact" className="flex-shrink-0 snap-start w-full  pl-4 md:pl-20 ">

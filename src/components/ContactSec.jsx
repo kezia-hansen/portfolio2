@@ -4,8 +4,8 @@ export default function Contact() {
   return (
     <section id="home" className="flex flex-col items-center justify-center gap-5 md:gap-12 p-5 md:p-10">
       <div className="flex flex-col text-center gap-5 space-y-5">
-        <p className="text-royalBlue-600 text-3xl md:text-7xl xl:text-7xl mb-4">Connect with</p>
-        <h1 className="font-bold text-5xl md:text-9xl lg:text-7xl xl:text-8xl text-tangerine">Me</h1>
+        <p className="text-royalBlue-600 text-3xl md:text-7xl xl:text-7xl mb-4">Tag kontakt</p>
+        <h1 className="font-bold text-5xl md:text-9xl lg:text-7xl xl:text-8xl text-tangerine">Til mig</h1>
         <h1 className="font-bold text-7xl md:text-6xl lg:text-7xl xl:text-8xl text-royalBlue-600 font-moontime">Kezia Hansen</h1>
         <p className="text-tangerine text-3xl md:text-4xl xl:text-5xl mb-4">+4528193926</p>
       </div>

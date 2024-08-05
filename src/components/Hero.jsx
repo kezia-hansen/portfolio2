@@ -12,7 +12,7 @@ export default function Hero() {
       </div>
       <div className="flex flex-col items-center md:items-start text-center md:text-left w-full md:w-1/2">
         <div className="border-l-4 border-royalBlue-600 pl-4 md:pl-6 mb-4 md:mb-8">
-          <p className="text-royalBlue-600 text-left text-3xl md:text-2xl xl:text-4xl mb-2 md:mb-4 whitespace-nowrap">Hello, I am</p>
+          <p className="text-royalBlue-600 text-left text-3xl md:text-2xl xl:text-4xl mb-2 md:mb-4 whitespace-nowrap">Hej, jeg er</p>
           <h1 className="font-bold text-4xl md:text-4xl lg:text-6xl xl:text-6xl text-tangerine whitespace-nowrap">Kezia Hansen</h1>
         </div>
         <div className="ml-8 md:-ml-2">
